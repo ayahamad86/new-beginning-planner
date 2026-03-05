@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Vercel local project metadata
+.vercel/
+
+# Local Prisma/SQLite DB artifacts (never commit)
+**/*.db
+prisma/prisma/prisma/
